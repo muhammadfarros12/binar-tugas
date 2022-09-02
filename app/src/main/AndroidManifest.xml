@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tugas1">
         <activity
+            android:name=".ParcelableSampleActivity"
+            android:exported="false" />
+        <activity
             android:name=".SerializableSampleActivity"
             android:exported="false" />
         <activity
